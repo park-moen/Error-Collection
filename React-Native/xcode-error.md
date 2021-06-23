@@ -8,11 +8,9 @@
 
 # Iterm에서 react-native 빌드 중 Xcode Build Error 발생
 
----
+<br />
 
 ## Build Error
-
----
 
 ![image](https://user-images.githubusercontent.com/57402711/123085272-ffe1cd00-d45c-11eb-8cb1-f9a279e86311.png)
 ![image](https://user-images.githubusercontent.com/57402711/123085571-59e29280-d45d-11eb-87da-5affb7413fa7.png)
@@ -21,7 +19,7 @@
 
 ## 해결책
 
----
+<br />
 
 ### 1단계
 
@@ -54,4 +52,10 @@ npm pod-install ios // 터미널에 npm pod-install 실행
 
 - Xcode 10 Version 이상에서는 사용하지 않는 파일을 일부 삭제 시키면서 기존에 사용하는 파일에 손상이 발생해서 생기는 문제입니다.
 
-<!-- https://stackoverflow.com/questions/21366549/error-the-sandbox-is-not-in-sync-with-the-podfile-lock-after-installing-re -->
+<br />
+
+### 참고자료
+
+[stack overflow](https://stackoverflow.com/questions/21366549/error-the-sandbox-is-not-in-sync-with-the-podfile-lock-after-installing-re)
+
+[stack overflow](https://stackoverflow.com/questions/10167442/whats-the-xcode-no-such-file-or-directory-error)
