@@ -17,9 +17,9 @@
 
 터미널에서 빌드 (npm run ios) 후 Xcode에 error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation. Error 문구가 보입니다.
 
-## 해결책
-
 <br />
+
+## 해결책
 
 ### 1단계
 
@@ -38,7 +38,7 @@ npm pod-install ios // 터미널에 npm pod-install 실행
    - Open a project or file을 클릭
    - ios 폴더 안의 [프로젝트명] 폴더 선택
 
-<img src="https://user-images.githubusercontent.com/57402711/123087525-9f07c400-d45f-11eb-9614-028b7aea6724.png" alt="image" style="zoom:60%;" />
+<img src="https://user-images.githubusercontent.com/57402711/123087525-9f07c400-d45f-11eb-9614-028b7aea6724.png" alt="image" style="zoom:33%;" />
 
 3. [프로젝트명] 폴더에 빨간색으로 표시된 파일을 찾습니다.
 
@@ -54,7 +54,7 @@ npm pod-install ios // 터미널에 npm pod-install 실행
 
 <br />
 
-### 참고자료
+## 참고자료
 
 [stack overflow](https://stackoverflow.com/questions/21366549/error-the-sandbox-is-not-in-sync-with-the-podfile-lock-after-installing-re)
 
